@@ -1,0 +1,26 @@
+{
+  "name": "apikiurest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2",
+    "soap": "^1.0.0",
+    "xml2js": "^0.6.2",
+    "xmlbuilder": "^15.1.1"
+  }
+}
